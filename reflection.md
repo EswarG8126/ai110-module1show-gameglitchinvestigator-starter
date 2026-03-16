@@ -48,7 +48,7 @@ Yes, it helped me design some of the tests in the sense that it gave me the idea
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+Every time you click a button or type something in Streamlit, the entire script reruns from scratch, like refreshing a page. Regular variables reset on every rerun, so Streamlit gives you st.session_state, a special dictionary that persists across reruns. That's how the game remembers your score and attempts between guesses.
 
 ---
 
@@ -56,5 +56,12 @@ Yes, it helped me design some of the tests in the sense that it gave me the idea
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  Being able to properly test my code by partnering with an AI to make the tests is something I want
+  to reuse in the future labs and projects.
 - What is one thing you would do differently next time you work with AI on a coding task?
+I would make sure I try to make the AI fumble a little bit since I think fixing the bugs I chose for this
+project were too easy to fix for AI.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+It has made me think much better about AI generated code in the sense that now I know it isn't always 
+perfect and that reassures me. Additionally, it lets me know that people would still have to check AI code
+here and there once it inevitably fully takes over the jobs.

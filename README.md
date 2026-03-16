@@ -26,13 +26,18 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+The game's purpose is to entertain by letting the user play a simple guessing game. 
 - [ ] Detail which bugs you found.
+The bugs I found were mostly large like the normal being set to be harder than the hard mode, the hints
+not saying the right things, and the secret number getting corrupted every few guesses.
 - [ ] Explain what fixes you applied.
+I made sure the hints were saying the right things and also made sure the secret number won't get
+changed every few guesses like it was before (making the game much less stressful for the user).
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+Couldn't seem to put it here so attached it to the repo as an image.
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+N/A
